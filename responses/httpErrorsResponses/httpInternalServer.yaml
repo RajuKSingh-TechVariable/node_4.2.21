@@ -1,0 +1,10 @@
+definitions:
+  internalServer:
+    type: "object"
+    properties:
+      statusCode:
+        type: "integer"
+        example: "500"
+      message:
+        type: "string"
+        example: "Ops! Something went wrong"

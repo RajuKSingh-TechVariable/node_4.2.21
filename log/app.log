@@ -1,0 +1,789 @@
+[2021-02-11T17:43:22.716] [INFO] default - Example app listening at http://:::8081
+[2021-02-11T17:44:19.333] [INFO] default - Example app listening at http://:::8081
+[2021-02-11T17:46:00.269] [INFO] default - Example app listening at http://:::8081
+[2021-02-11T17:49:26.126] [INFO] default - Example app listening at http://:::8081
+[2021-02-11T17:49:48.939] [INFO] default - Example app listening at http://:::8081
+[2021-02-11T17:50:59.582] [INFO] default - Example app listening at http://:::8081
+[2021-02-11T17:52:21.973] [INFO] default - Example app listening at http://:::8081
+[2021-02-11T17:52:53.848] [INFO] default - Example app listening at http://:::8081
+[2021-02-11T17:53:18.999] [INFO] default - [
+  UserResponse {
+    userName: 'Karc vdvS',
+    id: '602226452c4bcd621cef3428'
+  },
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse {
+    userName: 'RAJUSINGH',
+    id: '6022751a369cc24da4e189f5'
+  }
+]
+[2021-02-11T17:54:47.767] [INFO] default - Example app listening at http://:::8081
+[2021-02-11T17:59:26.766] [INFO] default - Example app listening at http://:::8081
+[2021-02-11T18:00:07.573] [INFO] default - Example app listening at http://:::8081
+[2021-02-11T18:00:38.134] [INFO] default - Example app listening at http://:::8081
+[2021-02-12T11:50:50.374] [INFO] default - Example app listening at http://:::8081
+[2021-02-12T12:47:40.276] [INFO] default - Example app listening at http://:::8081
+[2021-02-12T12:47:48.538] [DEBUG] default - [
+  UserResponse {
+    userName: 'Karc vdvS',
+    id: '602226452c4bcd621cef3428'
+  },
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse {
+    userName: 'RAJUSINGH',
+    id: '6022751a369cc24da4e189f5'
+  }
+]
+[2021-02-12T12:47:48.543] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse {
+      userName: 'Karc vdvS',
+      id: '602226452c4bcd621cef3428'
+    },
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse {
+      userName: 'RAJUSINGH',
+      id: '6022751a369cc24da4e189f5'
+    }
+  ]
+}
+[2021-02-12T12:48:53.840] [DEBUG] default - {
+  _id: 602226562c4bcd621cef3429,
+  userName: 'singh',
+  password: 'singh_789',
+  __v: 0
+}
+[2021-02-12T12:48:53.843] [ERROR] default - ReferenceError: usersResponse is not defined
+    at F:\node_js\node_4.2.21\controllers\userController.js:28:25
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:5:22
+[2021-02-12T12:49:26.113] [INFO] default - Example app listening at http://:::8081
+[2021-02-12T12:49:29.780] [DEBUG] default - {
+  _id: 602226562c4bcd621cef3429,
+  userName: 'singh',
+  password: 'singh_789',
+  __v: 0
+}
+[2021-02-12T12:49:29.784] [DEBUG] default - UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' }
+[2021-02-12T12:49:29.785] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' }
+}
+[2021-02-12T12:50:27.355] [INFO] default - Example app listening at http://:::8081
+[2021-02-12T12:50:37.735] [DEBUG] default - UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' }
+[2021-02-12T12:50:37.737] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' }
+}
+[2021-02-12T13:14:58.629] [INFO] default - Example app listening at http://:::8081
+[2021-02-12T13:15:29.050] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-12T13:15:29.219] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-12T13:15:33.688] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-12T13:15:52.761] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-12T13:17:43.248] [INFO] default - Example app listening at http://:::8081
+[2021-02-12T13:17:47.676] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-12T13:33:52.252] [DEBUG] default - UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' }
+[2021-02-12T13:33:52.253] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' }
+}
+[2021-02-12T13:33:57.297] [DEBUG] default - [
+  UserResponse {
+    userName: 'Karc vdvS',
+    id: '602226452c4bcd621cef3428'
+  },
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse {
+    userName: 'RAJUSINGH',
+    id: '6022751a369cc24da4e189f5'
+  }
+]
+[2021-02-12T13:33:57.308] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse {
+      userName: 'Karc vdvS',
+      id: '602226452c4bcd621cef3428'
+    },
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse {
+      userName: 'RAJUSINGH',
+      id: '6022751a369cc24da4e189f5'
+    }
+  ]
+}
+[2021-02-12T13:34:59.724] [DEBUG] default - UserResponse { userName: 'Karc vdvS', id: '602226452c4bcd621cef3428' }
+[2021-02-12T13:34:59.725] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse {
+    userName: 'Karc vdvS',
+    id: '602226452c4bcd621cef3428'
+  }
+}
+[2021-02-12T13:35:40.797] [INFO] default - Example app listening at http://:::8081
+[2021-02-12T13:35:45.976] [DEBUG] default - UserResponse { userName: 'Karc vdvS', id: '602226452c4bcd621cef3428' }
+[2021-02-12T13:35:45.978] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse {
+    userName: 'Karc vdvS',
+    id: '602226452c4bcd621cef3428'
+  }
+}
+[2021-02-12T13:41:41.961] [INFO] default - Example app listening at http://:::8081
+[2021-02-12T13:42:45.222] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-12T13:43:13.288] [INFO] default - Example app listening at http://:::8081
+[2021-02-12T13:43:15.845] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-12T13:44:52.039] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T16:55:06.168] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:21:13.289] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:21:38.348] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-17T17:21:38.494] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-17T17:22:07.612] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:22:13.824] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-17T17:22:16.184] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-17T17:22:16.757] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-17T17:22:17.009] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-17T17:22:17.183] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-17T17:22:17.352] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-17T17:22:17.536] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-17T17:23:15.073] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:24:08.417] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:24:29.367] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-17T17:25:13.214] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:26:07.024] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:26:59.930] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:28:22.162] [DEBUG] default - [
+  UserResponse {
+    userName: 'Karc vdvS',
+    id: '602226452c4bcd621cef3428'
+  },
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse {
+    userName: 'RAJUSINGH',
+    id: '6022751a369cc24da4e189f5'
+  }
+]
+[2021-02-17T17:28:22.166] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse {
+      userName: 'Karc vdvS',
+      id: '602226452c4bcd621cef3428'
+    },
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse {
+      userName: 'RAJUSINGH',
+      id: '6022751a369cc24da4e189f5'
+    }
+  ]
+}
+[2021-02-17T17:28:41.950] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { body: { userName: [Array] } }
+}
+[2021-02-17T17:30:03.993] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:30:09.481] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { body: { userName: [Array] } }
+}
+[2021-02-17T17:30:20.272] [DEBUG] default - UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' }
+[2021-02-17T17:30:20.273] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  location: '/users/undefined'
+}
+[2021-02-17T17:34:02.563] [DEBUG] default - [
+  UserResponse {
+    userName: 'Karc vdvS',
+    id: '602226452c4bcd621cef3428'
+  },
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse {
+    userName: 'RAJUSINGH',
+    id: '6022751a369cc24da4e189f5'
+  },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' }
+]
+[2021-02-17T17:34:02.567] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse {
+      userName: 'Karc vdvS',
+      id: '602226452c4bcd621cef3428'
+    },
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse {
+      userName: 'RAJUSINGH',
+      id: '6022751a369cc24da4e189f5'
+    },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' }
+  ]
+}
+[2021-02-17T17:34:31.056] [DEBUG] default - UserResponse { userName: 'RAJUSINGH', id: '6022751a369cc24da4e189f5' }
+[2021-02-17T17:34:31.063] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse {
+    userName: 'RAJUSINGH',
+    id: '6022751a369cc24da4e189f5'
+  }
+}
+[2021-02-17T17:34:44.251] [DEBUG] default - HttpSuccesCreated { statusCode: 204 }
+[2021-02-17T17:35:02.247] [ERROR] default - HttpNotFound { statusCode: 404, message: 'The user is not present' }
+[2021-02-17T17:35:02.248] [ERROR] default - HttpNotFound { statusCode: 404, message: 'The user is not present' }
+[2021-02-17T17:37:22.571] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:37:45.410] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:38:02.497] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:39:19.108] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:39:45.821] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:40:39.041] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:40:55.406] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-17T17:40:58.669] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-17T17:42:10.974] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T17:42:20.663] [DEBUG] default - [
+  UserResponse {
+    userName: 'Karc vdvS',
+    id: '602226452c4bcd621cef3428'
+  },
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' }
+]
+[2021-02-17T17:42:20.667] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse {
+      userName: 'Karc vdvS',
+      id: '602226452c4bcd621cef3428'
+    },
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' }
+  ]
+}
+[2021-02-17T17:42:40.164] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { body: { userName: [Array] } }
+}
+[2021-02-17T17:42:50.679] [DEBUG] default - UserResponse { userName: 'bhaishab', id: '602d08425593bf14ecc2db86' }
+[2021-02-17T17:42:50.680] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse { userName: 'bhaishab', id: '602d08425593bf14ecc2db86' },
+  location: '/users/undefined'
+}
+[2021-02-17T17:43:23.623] [DEBUG] default - {
+  _id: 602d08425593bf14ecc2db86,
+  userName: 'rajuBhai',
+  password: 'HappyNow',
+  __v: 0
+}
+[2021-02-17T17:43:23.641] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' }
+}
+[2021-02-17T17:43:32.139] [DEBUG] default - [
+  UserResponse {
+    userName: 'Karc vdvS',
+    id: '602226452c4bcd621cef3428'
+  },
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' }
+]
+[2021-02-17T17:43:32.140] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse {
+      userName: 'Karc vdvS',
+      id: '602226452c4bcd621cef3428'
+    },
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    }
+  ]
+}
+[2021-02-17T17:43:48.606] [DEBUG] default - HttpSuccesCreated { statusCode: 204 }
+[2021-02-17T17:44:02.340] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' }
+]
+[2021-02-17T17:44:02.342] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    }
+  ]
+}
+[2021-02-17T17:44:16.297] [DEBUG] default - UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' }
+[2021-02-17T17:44:16.298] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' }
+}
+[2021-02-17T18:00:36.221] [INFO] default - Example app listening at http://:::8081
+[2021-02-17T18:01:08.988] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' }
+]
+[2021-02-17T18:01:08.991] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    }
+  ]
+}
+[2021-02-18T11:29:40.206] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T11:30:39.905] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' }
+]
+[2021-02-18T11:30:39.908] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    }
+  ]
+}
+[2021-02-18T11:33:36.962] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { body: { userName: [Array] } }
+}
+[2021-02-18T11:47:58.331] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T11:48:05.713] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' }
+]
+[2021-02-18T11:48:05.716] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    }
+  ]
+}
+[2021-02-18T11:49:01.744] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T11:49:08.762] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { body: { userName: [Array] } }
+}
+[2021-02-18T11:50:46.075] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T11:50:50.181] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { body: { userName: [Array] } }
+}
+[2021-02-18T11:51:04.315] [DEBUG] default - UserResponse { userName: 'stgdfgdge', id: '602e075057183e1b0090a0b0' }
+[2021-02-18T11:51:04.316] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0'
+  },
+  location: '/users/undefined'
+}
+[2021-02-18T11:52:05.265] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { body: { userName: [Array] } }
+}
+[2021-02-18T11:52:50.192] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T11:53:41.352] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T11:55:05.625] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T11:56:29.289] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T11:56:54.150] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { body: { userName: [Array] } }
+}
+[2021-02-18T11:57:23.491] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T11:57:56.429] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T12:14:12.006] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T12:15:57.581] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T12:26:40.000] [DEBUG] default - UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' }
+[2021-02-18T12:26:40.002] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' },
+  location: '/users/undefined'
+}
+[2021-02-18T12:26:51.923] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { body: { userName: [Array] } }
+}
+[2021-02-18T12:29:55.398] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0'
+  },
+  UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' }
+]
+[2021-02-18T12:29:55.408] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0'
+    },
+    UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' }
+  ]
+}
+[2021-02-18T12:30:16.920] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { body: { userName: [Array] }, params: { userId: [Array] } }
+}
+[2021-02-18T12:30:28.144] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: {
+    body: { userName: [Array], password: [Array] },
+    params: { userId: [Array] }
+  }
+}
+[2021-02-18T12:44:54.759] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T12:45:56.431] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T12:46:52.972] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T12:47:45.894] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T12:48:20.864] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T12:49:42.078] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T12:54:47.437] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T12:57:16.718] [ERROR] default - HttpNotFound { statusCode: 404, message: 'The user is not present' }
+[2021-02-18T12:57:16.720] [ERROR] default - HttpNotFound { statusCode: 404, message: 'The user is not present' }
+[2021-02-18T13:00:40.570] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T13:01:13.272] [DEBUG] default - UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' }
+[2021-02-18T13:01:13.273] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' }
+}
+[2021-02-18T13:01:23.753] [ERROR] default - HttpNotFound { statusCode: 404, message: 'The user is not present' }
+[2021-02-18T13:01:23.754] [ERROR] default - HttpNotFound { statusCode: 404, message: 'The user is not present' }
+[2021-02-18T13:01:52.209] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { params: { userId: [Array] } }
+}
+[2021-02-18T13:03:24.611] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T13:03:38.153] [ERROR] default - HttpNotFound { statusCode: 404, message: 'The user is not present' }
+[2021-02-18T13:03:38.155] [ERROR] default - HttpNotFound { statusCode: 404, message: 'The user is not present' }
+[2021-02-18T13:03:43.676] [DEBUG] default - UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' }
+[2021-02-18T13:03:43.677] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' }
+}
+[2021-02-18T13:19:26.076] [DEBUG] default - UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' }
+[2021-02-18T13:19:26.077] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' }
+}
+[2021-02-18T13:19:45.646] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0'
+  },
+  UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' }
+]
+[2021-02-18T13:19:45.658] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0'
+    },
+    UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' }
+  ]
+}
+[2021-02-18T13:19:59.777] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T13:20:04.916] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0'
+  },
+  UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' }
+]
+[2021-02-18T13:20:04.927] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0'
+    },
+    UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' }
+  ]
+}
+[2021-02-18T13:20:12.542] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0'
+  },
+  UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' }
+]
+[2021-02-18T13:20:12.551] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0'
+    },
+    UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' }
+  ]
+}
+[2021-02-18T13:20:45.401] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T13:20:48.959] [ERROR] default - HttpUnauthorised {
+  statusCode: 401,
+  message: "Ops! you don't have the require permissions."
+}
+[2021-02-18T13:32:19.490] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T13:33:19.552] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T13:34:58.080] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T13:36:28.686] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T13:45:50.373] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T14:03:34.544] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T14:03:50.789] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T14:06:55.573] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T14:07:45.109] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T14:08:20.613] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T14:09:16.918] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T14:09:57.157] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T15:11:39.695] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T15:13:06.568] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T15:14:36.524] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T15:14:42.255] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0'
+  },
+  UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' }
+]
+[2021-02-18T15:14:42.259] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0'
+    },
+    UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' }
+  ]
+}
+[2021-02-18T15:20:34.015] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T15:21:54.870] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T15:23:32.369] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T15:24:40.240] [INFO] default - Example app listening at http://:::8081
+[2021-02-18T15:29:29.184] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T11:56:12.784] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T11:58:31.167] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T12:00:14.518] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T12:01:35.090] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T12:02:15.390] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T13:01:20.327] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T13:01:39.705] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0'
+  },
+  UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' }
+]
+[2021-02-19T13:01:39.709] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0'
+    },
+    UserResponse { userName: 'divide', id: '602e0fa7a03a013674d6f841' }
+  ]
+}
+[2021-02-19T13:01:58.553] [DEBUG] default - HttpSuccesCreated { statusCode: 204 }
+[2021-02-19T13:02:17.376] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0'
+  }
+]
+[2021-02-19T13:02:17.379] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0'
+    }
+  ]
+}
+[2021-02-19T13:33:03.522] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-19T13:33:03.668] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-19T15:19:35.748] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T15:19:53.351] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T15:20:39.882] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T15:22:46.047] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T15:22:57.131] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T15:25:34.511] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T15:25:47.003] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T15:26:16.192] [INFO] default - Example app listening at http://:::8081
+[2021-02-19T16:46:16.178] [INFO] default - Example app listening at http://:::8081
+[2021-02-22T14:26:54.720] [INFO] default - Example app listening at http://:::8081
+[2021-02-22T17:01:20.240] [INFO] default - Example app listening at http://:::8081
+[2021-02-22T17:41:01.677] [INFO] default - Example app listening at http://:::8081
+[2021-02-22T17:43:31.695] [INFO] default - Example app listening at http://:::8081
+[2021-02-22T17:44:00.809] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-22T17:44:00.884] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-22T17:45:33.391] [INFO] default - Example app listening at http://:::8081
+[2021-02-22T17:46:46.800] [INFO] default - Example app listening at http://:::8081
+[2021-02-22T17:47:13.219] [INFO] default - Example app listening at http://:::8081
+[2021-02-22T17:47:39.819] [INFO] default - Example app listening at http://:::8081
+[2021-02-22T17:48:01.775] [INFO] default - Example app listening at http://:::8081
+[2021-02-22T17:48:12.625] [INFO] default - Example app listening at http://:::8081

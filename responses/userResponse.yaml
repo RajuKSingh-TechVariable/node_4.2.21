@@ -1,0 +1,10 @@
+definitions:
+  userResponse:
+    type: "object"
+    properties:
+      userName:
+        type: "string"
+        example: "rajuksingh"
+      userId:
+        type: "string"
+        example: "129bc45a34455"

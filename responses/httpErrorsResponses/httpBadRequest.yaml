@@ -1,0 +1,25 @@
+definitions:
+  badRequest:
+    type: "object"
+    properties:
+      statusCode:
+        type: "integer"
+        example: "400"
+      message:
+        type: "string"
+        example: "Incorrect Input"
+      error:
+        type: "object"
+        properties:
+          body:
+            type: "object"
+            properties:
+              keys:
+                type: "array"
+                example: "length should be greater than 5"
+          params:
+            type: "object"
+            properties:
+              keys:
+                type: "array"
+                example: "userId entered is incorrect"

@@ -1,0 +1,10 @@
+definitions:
+  unauthorised:
+    type: "object"
+    properties:
+      statusCode:
+        type: "integer"
+        example: "401"
+      message:
+        type: "string"
+        example: "Ops! you don't have the require permissions."

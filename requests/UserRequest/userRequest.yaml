@@ -1,0 +1,8 @@
+definitions:
+  userRequest:
+    type: "object"
+    properties:
+      userName:
+        type: "string"
+      password:
+        type: "string"

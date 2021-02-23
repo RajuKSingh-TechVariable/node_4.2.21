@@ -1,0 +1,9 @@
+{
+  "userNotFound": "The user is not present",
+  "badRequest": "The user input is not correct",
+  "userNameReq": "User Name Required",
+  "lengthGt5": "length should be greater than 5",
+  "emailInvalid": "email id not valid",
+  "passwordReq": "Password Required",
+  "paramInvalid": "userId for the above request is Incorrect!"
+}
