@@ -2626,3 +2626,57 @@
 [2021-02-25T14:40:44.890] [INFO] default - connected
 [2021-02-25T14:41:01.627] [INFO] default - Example app listening at http://:::8081
 [2021-02-25T14:41:01.645] [INFO] default - connected
+[2021-02-25T14:45:14.074] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T14:45:14.092] [INFO] default - connected
+[2021-02-25T14:45:20.525] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-25T14:45:20.527] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+  ]
+}
+[2021-02-25T14:45:27.181] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-25T14:45:31.349] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { params: { userId: [Array] } }
+}
+[2021-02-25T14:45:37.480] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-25T14:45:37.482] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+  ]
+}
+[2021-02-25T14:45:45.748] [DEBUG] default - UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' }
+[2021-02-25T14:45:45.748] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' }
+}
+[2021-02-25T14:45:51.231] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-25T14:45:51.233] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+  ]
+}
+[2021-02-25T14:45:59.959] [INFO] default - F:\node_js\node_4.2.21\uploads\1614152537245IMG_20190928_225159.jpg exists
+[2021-02-25T14:45:59.993] [DEBUG] default - HttpFileOk {
+  statusCode: 200,
+  payload: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 48 00 48 00 00 ff e1 39 12 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 0d 00 0b 00 02 00 00 00 26 00 00 ... 218258 more bytes>
+}
