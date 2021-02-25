@@ -1,5 +1,5 @@
-const HttpErrorBase = require("./HttpErrorBase");
-const { INTERNAL_SERVER_ERROR } = require("../../constants/httpStatusCodes");
+const HttpErrorBase = require('./HttpErrorBase');
+const { INTERNAL_SERVER_ERROR } = require('../../constants/httpStatusCodes');
 
 /**
  * HttpInternalServerError

@@ -1,5 +1,5 @@
-const { UNAUTHORISED } = require("../../constants/httpStatusCodes");
-const HttpErrorBase = require("./HttpErrorBase");
+const { UNAUTHORISED } = require('../../constants/httpStatusCodes');
+const HttpErrorBase = require('./HttpErrorBase');
 /**
  * HttpUnauthorised
  * See {@link HttpErrorBase}

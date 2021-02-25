@@ -1,5 +1,6 @@
-const responseHandler = require("../responses/responseHandlerResult");
-module.exports = (controller) => async (req, res, _next) => {
+// const responseHandler = require('../responses/responseHandlerResult');
+
+module.exports = (controller) => async (req, res) => {
   const response = await controller(req);
   //  responseHandler(res, response);
   // console.log("jygxcsc", response);

@@ -1,6 +1,6 @@
-const { HttpNotFound } = require("../responses/httpErrorsResponses");
-const { globalErrorMsgs } = require("../resources/errorMessages");
+const { HttpNotFound } = require('../responses/httpErrorsResponses');
+const { globalErrorMsgs } = require('../resources/errorMessages');
 
-module.exports = (_req, _res, _next) => {
+module.exports = () => {
   throw new HttpNotFound(globalErrorMsgs.routeNotFound);
 };

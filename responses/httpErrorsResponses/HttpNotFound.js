@@ -1,5 +1,5 @@
-const HttpErrorBase = require("./HttpErrorBase");
-const { NOT_FOUND } = require("../../constants/httpStatusCodes");
+const HttpErrorBase = require('./HttpErrorBase');
+const { NOT_FOUND } = require('../../constants/httpStatusCodes');
 
 /**
  * HttpNotFound

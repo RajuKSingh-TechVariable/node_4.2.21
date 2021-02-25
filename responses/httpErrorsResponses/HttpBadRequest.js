@@ -1,5 +1,5 @@
-const HttpErrorBase = require("./HttpErrorBase");
-const { BAD_REQUEST } = require("../../constants/httpStatusCodes");
+const HttpErrorBase = require('./HttpErrorBase');
+const { BAD_REQUEST } = require('../../constants/httpStatusCodes');
 
 /**
  * HttpBadRequest

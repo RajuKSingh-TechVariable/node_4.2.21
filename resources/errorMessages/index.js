@@ -1,7 +1,8 @@
-const userErrorMsgs = require("./user");
-const globalErrorMsgs = require("./global");
-const authorisationErrorMsgs = require("./authorisation");
-const validationErrorMsgs = require("./validation");
+/* eslint-disable import/no-unresolved */
+const userErrorMsgs = require('./user');
+const globalErrorMsgs = require('./global');
+const authorisationErrorMsgs = require('./authorisation');
+const validationErrorMsgs = require('./validation');
 
 module.exports = {
   userErrorMsgs,

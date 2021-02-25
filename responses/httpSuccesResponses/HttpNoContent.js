@@ -1,5 +1,5 @@
-const HttpSuccesBase = require("./HttpSuccesBase");
-const { NO_CONTENT } = require("../../constants/httpStatusCodes");
+const HttpSuccesBase = require('./HttpSuccesBase');
+const { NO_CONTENT } = require('../../constants/httpStatusCodes');
 
 /**
  * HttpNoContent
@@ -10,7 +10,7 @@ const { NO_CONTENT } = require("../../constants/httpStatusCodes");
  * class to create a HttpNoContent object
  */
 
-class HttpSuccesCreated extends HttpSuccesBase {
+class HttpNoContent extends HttpSuccesBase {
   /**
    * @param {void}
    * @returns {void}
@@ -23,4 +23,4 @@ class HttpSuccesCreated extends HttpSuccesBase {
     super(NO_CONTENT);
   }
 }
-module.exports = HttpSuccesCreated;
+module.exports = HttpNoContent;

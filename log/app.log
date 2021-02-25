@@ -787,3 +787,1811 @@
 [2021-02-22T17:47:39.819] [INFO] default - Example app listening at http://:::8081
 [2021-02-22T17:48:01.775] [INFO] default - Example app listening at http://:::8081
 [2021-02-22T17:48:12.625] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T13:52:25.997] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T13:53:02.835] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0'
+  }
+]
+[2021-02-23T13:53:02.839] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0'
+    }
+  ]
+}
+[2021-02-23T14:28:50.808] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:29:00.004] [DEBUG] default - UserResponse { userName: 'qwertyy', id: '6034c3d3841f41336c7d15de' }
+[2021-02-23T14:29:00.007] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse { userName: 'qwertyy', id: '6034c3d3841f41336c7d15de' }
+}
+[2021-02-23T14:30:37.995] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:31:37.430] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:32:23.090] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:32:59.084] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:33:29.676] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:33:41.214] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:33:56.063] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\2021-02-23T09:03:56.060Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\2021-02-23T09:03:56.060Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T14:36:16.049] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:36:22.841] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\uploads\2021-02-23T09:06:22.839Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\uploads\\2021-02-23T09:06:22.839Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T14:36:42.154] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:36:46.272] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\2021-02-23T09:06:46.270Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\2021-02-23T09:06:46.270Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T14:39:56.492] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:40:04.090] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\uploads\2021-02-23T09:10:04.088Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\uploads\\2021-02-23T09:10:04.088Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T14:40:27.032] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:40:31.206] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\2021-02-23T09:10:31.202Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\2021-02-23T09:10:31.202Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T14:41:22.908] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\2021-02-23T09:11:22.906Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\2021-02-23T09:11:22.906Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T14:43:09.640] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:43:11.709] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\.uploads\2021-02-23T09:13:11.706Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\.uploads\\2021-02-23T09:13:11.706Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T14:58:19.875] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:58:45.208] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:58:48.812] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\2021-02-23T09:28:48.810Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\2021-02-23T09:28:48.810Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T14:59:23.043] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:59:25.937] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\2021-02-23T09:29:25.934Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\2021-02-23T09:29:25.934Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T14:59:51.809] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T14:59:55.295] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uplods\2021-02-23T09:29:55.292Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uplods\\2021-02-23T09:29:55.292Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T15:00:09.003] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:00:11.806] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\2021-02-23T09:30:11.804Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\2021-02-23T09:30:11.804Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T15:00:30.912] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:00:34.424] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\2021-02-23T09:30:34.422Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\2021-02-23T09:30:34.422Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T15:00:47.159] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:00:50.361] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\2021-02-23T09:30:50.358Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\2021-02-23T09:30:50.358Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T15:01:03.010] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:01:07.882] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\2021-02-23T09:31:07.878Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\2021-02-23T09:31:07.878Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T15:02:23.618] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:02:26.237] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\tmp\my-uploads\2021-02-23T09:32:26.234Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\tmp\\my-uploads\\2021-02-23T09:32:26.234Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T15:06:28.178] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:06:31.558] [DEBUG] default - UserResponse { userName: 'qwertyy12', id: '6034cc9f6535f26480c3020f' }
+[2021-02-23T15:06:31.559] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwertyy12',
+    id: '6034cc9f6535f26480c3020f'
+  }
+}
+[2021-02-23T15:09:12.114] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:09:22.190] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\2021-02-23T09:39:22.186Zimages.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\2021-02-23T09:39:22.186Zimages.jpg',
+  storageErrors: []
+}
+[2021-02-23T15:10:27.536] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\2021-02-23T09:40:27.535ZIMG_20190928_225159.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\2021-02-23T09:40:27.535ZIMG_20190928_225159.jpg',
+  storageErrors: []
+}
+[2021-02-23T15:15:38.775] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:15:43.709] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\2021-02-23T09:45:43.705ZIMG_20190928_225159.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\2021-02-23T09:45:43.705ZIMG_20190928_225159.jpg',
+  storageErrors: []
+}
+[2021-02-23T15:16:40.490] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:16:54.298] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:17:00.953] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:19:06.959] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:19:41.085] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:19:44.133] [DEBUG] default - UserResponse { userName: 'qwertyy123', id: '6034cfb8440f01732463f869' }
+[2021-02-23T15:19:44.134] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwertyy123',
+    id: '6034cfb8440f01732463f869'
+  }
+}
+[2021-02-23T15:21:30.800] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:21:33.256] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\2021-02-23T09:51:33.253ZIMG_20190928_225159.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\2021-02-23T09:51:33.253ZIMG_20190928_225159.jpg',
+  storageErrors: []
+}
+[2021-02-23T15:25:29.105] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:25:30.836] [DEBUG] default - UserResponse { userName: 'qwertyy123', id: '6034d1125052b178ac43dfb3' }
+[2021-02-23T15:25:30.837] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwertyy123',
+    id: '6034d1125052b178ac43dfb3'
+  }
+}
+[2021-02-23T15:26:30.710] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\1614074190708IMG_20190928_225159.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\1614074190708IMG_20190928_225159.jpg',
+  storageErrors: []
+}
+[2021-02-23T15:26:41.075] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:26:43.471] [DEBUG] default - UserResponse { userName: 'qwertyy123', id: '6034d15be45dbc6dc859b5d3' }
+[2021-02-23T15:26:43.473] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwertyy123',
+    id: '6034d15be45dbc6dc859b5d3'
+  }
+}
+[2021-02-23T15:27:48.151] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:27:50.278] [DEBUG] default - UserResponse { userName: 'qwertyy123', id: '6034d19e7df8780e80691778' }
+[2021-02-23T15:27:50.279] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwertyy123',
+    id: '6034d19e7df8780e80691778'
+  }
+}
+[2021-02-23T15:28:09.231] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:28:13.059] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\2021-02-23T09:58:13.055ZIMG_20190928_225159.jpg'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\2021-02-23T09:58:13.055ZIMG_20190928_225159.jpg',
+  storageErrors: []
+}
+[2021-02-23T15:28:23.565] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:28:26.850] [DEBUG] default - UserResponse { userName: 'qwertyy123', id: '6034d1c22ca42369f839e2c9' }
+[2021-02-23T15:28:26.852] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwertyy123',
+    id: '6034d1c22ca42369f839e2c9'
+  }
+}
+[2021-02-23T15:28:31.696] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+  UserResponse { userName: 'rajuBhai', id: '602d08425593bf14ecc2db86' },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0'
+  },
+  UserResponse { userName: 'qwertyy', id: '6034c3d3841f41336c7d15de' },
+  UserResponse {
+    userName: 'qwertyy12',
+    id: '6034cc9f6535f26480c3020f'
+  },
+  UserResponse {
+    userName: 'qwertyy123',
+    id: '6034cfb8440f01732463f869'
+  },
+  UserResponse {
+    userName: 'qwertyy123',
+    id: '6034d1125052b178ac43dfb3'
+  },
+  UserResponse {
+    userName: 'qwertyy123',
+    id: '6034d15be45dbc6dc859b5d3'
+  },
+  UserResponse {
+    userName: 'qwertyy123',
+    id: '6034d19e7df8780e80691778'
+  },
+  UserResponse {
+    userName: 'qwertyy123',
+    id: '6034d1c22ca42369f839e2c9'
+  }
+]
+[2021-02-23T15:28:31.718] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'string', id: '602d05547166852ac0a751cb' },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86'
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0'
+    },
+    UserResponse {
+      userName: 'qwertyy',
+      id: '6034c3d3841f41336c7d15de'
+    },
+    UserResponse {
+      userName: 'qwertyy12',
+      id: '6034cc9f6535f26480c3020f'
+    },
+    UserResponse {
+      userName: 'qwertyy123',
+      id: '6034cfb8440f01732463f869'
+    },
+    UserResponse {
+      userName: 'qwertyy123',
+      id: '6034d1125052b178ac43dfb3'
+    },
+    UserResponse {
+      userName: 'qwertyy123',
+      id: '6034d15be45dbc6dc859b5d3'
+    },
+    UserResponse {
+      userName: 'qwertyy123',
+      id: '6034d19e7df8780e80691778'
+    },
+    UserResponse {
+      userName: 'qwertyy123',
+      id: '6034d1c22ca42369f839e2c9'
+    }
+  ]
+}
+[2021-02-23T15:28:48.073] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-23T15:28:51.852] [DEBUG] default - HttpSuccesCreated { statusCode: 204 }
+[2021-02-23T15:29:23.735] [DEBUG] default - HttpSuccesCreated { statusCode: 204 }
+[2021-02-23T15:37:12.422] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:37:25.686] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:37:43.767] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-23T15:38:50.037] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:38:55.965] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:39:10.371] [DEBUG] default - UserResponse { userName: 'qwergh', id: '6034d446878e353dec2bb4f4' }
+[2021-02-23T15:39:10.378] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse { userName: 'qwergh', id: '6034d446878e353dec2bb4f4' }
+}
+[2021-02-23T15:39:54.556] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:40:35.581] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:42:40.508] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:42:52.057] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:43:33.549] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:45:28.417] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:45:53.075] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:48:34.617] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:50:02.003] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:50:10.115] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '6034d6da9ec02472001cd1b7',
+  userImagePath: undefined
+}
+[2021-02-23T15:50:10.118] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '6034d6da9ec02472001cd1b7',
+    userImagePath: undefined
+  }
+}
+[2021-02-23T15:51:03.704] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:51:51.395] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '6034d73f65e0c1646004b63f',
+  userImagePath: undefined
+}
+[2021-02-23T15:51:51.397] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '6034d73f65e0c1646004b63f',
+    userImagePath: undefined
+  }
+}
+[2021-02-23T15:53:48.551] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:53:51.911] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '6034d7b78ad3985348ebb936',
+  userImagePath: undefined
+}
+[2021-02-23T15:53:51.913] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '6034d7b78ad3985348ebb936',
+    userImagePath: undefined
+  }
+}
+[2021-02-23T15:54:33.575] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:56:48.426] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:57:00.172] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '6034d874e39a5c5cd05ab277',
+  userImagePath: undefined
+}
+[2021-02-23T15:57:00.175] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '6034d874e39a5c5cd05ab277',
+    userImagePath: undefined
+  }
+}
+[2021-02-23T15:58:27.972] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T15:59:00.577] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '6034d8ecf9de197e70de925a',
+  userImagePath: undefined
+}
+[2021-02-23T15:59:00.579] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '6034d8ecf9de197e70de925a',
+    userImagePath: undefined
+  }
+}
+[2021-02-23T16:00:56.965] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T16:01:40.857] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T16:01:44.871] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '6034d990ed5cff55641300b4',
+  userImagePath: undefined
+}
+[2021-02-23T16:01:44.880] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '6034d990ed5cff55641300b4',
+    userImagePath: undefined
+  }
+}
+[2021-02-23T16:03:34.521] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T16:03:46.593] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '6034da0a0ce4623ec4a150ea',
+  userImagePath: undefined
+}
+[2021-02-23T16:03:46.602] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '6034da0a0ce4623ec4a150ea',
+    userImagePath: undefined
+  }
+}
+[2021-02-23T16:04:13.114] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T16:05:04.087] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T16:05:23.917] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T16:05:25.599] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '6034da6ddf6fd4713c689606',
+  userImagePath: undefined
+}
+[2021-02-23T16:05:25.608] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '6034da6ddf6fd4713c689606',
+    userImagePath: undefined
+  }
+}
+[2021-02-23T16:05:45.882] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T16:23:00.126] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T16:23:15.775] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T16:23:19.856] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '6034de9f45483f6ef49a0e0e',
+  userImagePath: 'uploads\\1614077599834IMG_20190928_225159.jpg'
+}
+[2021-02-23T16:23:19.858] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '6034de9f45483f6ef49a0e0e',
+    userImagePath: 'uploads\\1614077599834IMG_20190928_225159.jpg'
+  }
+}
+[2021-02-23T16:24:44.950] [DEBUG] default - [
+  UserResponse {
+    userName: 'singh',
+    id: '602226562c4bcd621cef3429',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'string',
+    id: '602d05547166852ac0a751cb',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'rajuBhai',
+    id: '602d08425593bf14ecc2db86',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwertyy',
+    id: '6034c3d3841f41336c7d15de',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwertyy12',
+    id: '6034cc9f6535f26480c3020f',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwertyy123',
+    id: '6034cfb8440f01732463f869',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwertyy123',
+    id: '6034d1125052b178ac43dfb3',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d446878e353dec2bb4f4',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d6da9ec02472001cd1b7',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d73f65e0c1646004b63f',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d7b78ad3985348ebb936',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d874e39a5c5cd05ab277',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d8ecf9de197e70de925a',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d990ed5cff55641300b4',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034da0a0ce4623ec4a150ea',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034da6ddf6fd4713c689606',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034de9f45483f6ef49a0e0e',
+    userImagePath: 'uploads\\1614077599834IMG_20190928_225159.jpg'
+  }
+]
+[2021-02-23T16:24:44.972] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse {
+      userName: 'singh',
+      id: '602226562c4bcd621cef3429',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'string',
+      id: '602d05547166852ac0a751cb',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwertyy',
+      id: '6034c3d3841f41336c7d15de',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwertyy12',
+      id: '6034cc9f6535f26480c3020f',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwertyy123',
+      id: '6034cfb8440f01732463f869',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwertyy123',
+      id: '6034d1125052b178ac43dfb3',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d446878e353dec2bb4f4',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d6da9ec02472001cd1b7',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d73f65e0c1646004b63f',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d7b78ad3985348ebb936',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d874e39a5c5cd05ab277',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d8ecf9de197e70de925a',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d990ed5cff55641300b4',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034da0a0ce4623ec4a150ea',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034da6ddf6fd4713c689606',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034de9f45483f6ef49a0e0e',
+      userImagePath: 'uploads\\1614077599834IMG_20190928_225159.jpg'
+    }
+  ]
+}
+[2021-02-23T17:11:50.346] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '6034de9f45483f6ef49a0e0e',
+  userImagePath: 'uploads\\1614077599834IMG_20190928_225159.jpg'
+}
+[2021-02-23T17:11:50.348] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '6034de9f45483f6ef49a0e0e',
+    userImagePath: 'uploads\\1614077599834IMG_20190928_225159.jpg'
+  }
+}
+[2021-02-23T17:45:15.734] [INFO] default - Example app listening at http://:::8081
+[2021-02-23T18:12:01.158] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:13:30.247] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:13:54.641] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { params: { userId: [Array] } }
+}
+[2021-02-24T12:14:19.805] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:14:28.367] [ERROR] default - ReferenceError: _dirname is not defined
+    at F:\node_js\node_4.2.21\routes\userRoutes.js:47:13
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:317:13)
+    at F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (F:\node_js\node_4.2.21\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+[2021-02-24T12:14:56.382] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:15:03.550] [ERROR] default - ReferenceError: _dirname is not defined
+    at F:\node_js\node_4.2.21\routes\userRoutes.js:48:13
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:174:3)
+    at router (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:317:13)
+    at F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:335:12)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (F:\node_js\node_4.2.21\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+[2021-02-24T12:15:39.730] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:16:23.214] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:16:58.319] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:18:17.603] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:18:43.754] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:18:59.774] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:20:47.558] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-24T12:21:05.528] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '6034de9f45483f6ef49a0e0e',
+  userImagePath: 'uploads\\1614077599834IMG_20190928_225159.jpg'
+}
+[2021-02-24T12:21:05.530] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '6034de9f45483f6ef49a0e0e',
+    userImagePath: 'uploads\\1614077599834IMG_20190928_225159.jpg'
+  }
+}
+[2021-02-24T12:25:54.645] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:26:26.106] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:28:43.145] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:30:18.780] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T12:57:39.070] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:05:59.753] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:07:10.916] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:07:20.438] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:07:38.963] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:07:49.577] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '6036024d2f9ce02ea47ddbb3',
+  userImagePath: 'uploads\\1614152269512IMG_20190928_225159.jpg'
+}
+[2021-02-24T13:07:49.579] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '6036024d2f9ce02ea47ddbb3',
+    userImagePath: 'uploads\\1614152269512IMG_20190928_225159.jpg'
+  }
+}
+[2021-02-24T13:08:03.022] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:08:32.736] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:08:35.971] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '6036027b540f584774ad8d0e',
+  userImagePath: 'uploads\\1614152315942IMG_20190928_225159.jpg'
+}
+[2021-02-24T13:08:35.973] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '6036027b540f584774ad8d0e',
+    userImagePath: 'uploads\\1614152315942IMG_20190928_225159.jpg'
+  }
+}
+[2021-02-24T13:09:44.117] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:10:55.194] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:11:08.944] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:11:17.680] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:11:22.857] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '60360322ab569f20b0afd7d2',
+  userImagePath: 'uploads\\1614152482834IMG_20190928_225159.jpg'
+}
+[2021-02-24T13:11:22.859] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '60360322ab569f20b0afd7d2',
+    userImagePath: 'uploads\\1614152482834IMG_20190928_225159.jpg'
+  }
+}
+[2021-02-24T13:11:38.895] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:11:41.611] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '60360335379162372cd8dc8b',
+  userImagePath: 'uploads\\1614152501588IMG_20190928_225159.jpg'
+}
+[2021-02-24T13:11:41.614] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '60360335379162372cd8dc8b',
+    userImagePath: 'uploads\\1614152501588IMG_20190928_225159.jpg'
+  }
+}
+[2021-02-24T13:12:12.559] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:12:17.268] [DEBUG] default - UserResponse {
+  userName: 'qwergh',
+  id: '60360359b367ef48f43b0036',
+  userImagePath: '1614152537245IMG_20190928_225159.jpg'
+}
+[2021-02-24T13:12:17.270] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwergh',
+    id: '60360359b367ef48f43b0036',
+    userImagePath: '1614152537245IMG_20190928_225159.jpg'
+  }
+}
+[2021-02-24T13:12:37.574] [DEBUG] default - [
+  UserResponse {
+    userName: 'singh',
+    id: '602226562c4bcd621cef3429',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'string',
+    id: '602d05547166852ac0a751cb',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'rajuBhai',
+    id: '602d08425593bf14ecc2db86',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwertyy',
+    id: '6034c3d3841f41336c7d15de',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwertyy12',
+    id: '6034cc9f6535f26480c3020f',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwertyy123',
+    id: '6034cfb8440f01732463f869',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwertyy123',
+    id: '6034d1125052b178ac43dfb3',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d446878e353dec2bb4f4',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d6da9ec02472001cd1b7',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d73f65e0c1646004b63f',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d7b78ad3985348ebb936',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d874e39a5c5cd05ab277',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d8ecf9de197e70de925a',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d990ed5cff55641300b4',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034da0a0ce4623ec4a150ea',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034da6ddf6fd4713c689606',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034de9f45483f6ef49a0e0e',
+    userImagePath: 'uploads\\1614077599834IMG_20190928_225159.jpg'
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6036024d2f9ce02ea47ddbb3',
+    userImagePath: 'uploads\\1614152269512IMG_20190928_225159.jpg'
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6036027b540f584774ad8d0e',
+    userImagePath: 'uploads\\1614152315942IMG_20190928_225159.jpg'
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '60360322ab569f20b0afd7d2',
+    userImagePath: 'uploads\\1614152482834IMG_20190928_225159.jpg'
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '60360335379162372cd8dc8b',
+    userImagePath: 'uploads\\1614152501588IMG_20190928_225159.jpg'
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '60360359b367ef48f43b0036',
+    userImagePath: '1614152537245IMG_20190928_225159.jpg'
+  }
+]
+[2021-02-24T13:12:37.594] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse {
+      userName: 'singh',
+      id: '602226562c4bcd621cef3429',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'string',
+      id: '602d05547166852ac0a751cb',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwertyy',
+      id: '6034c3d3841f41336c7d15de',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwertyy12',
+      id: '6034cc9f6535f26480c3020f',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwertyy123',
+      id: '6034cfb8440f01732463f869',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwertyy123',
+      id: '6034d1125052b178ac43dfb3',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d446878e353dec2bb4f4',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d6da9ec02472001cd1b7',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d73f65e0c1646004b63f',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d7b78ad3985348ebb936',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d874e39a5c5cd05ab277',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d8ecf9de197e70de925a',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d990ed5cff55641300b4',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034da0a0ce4623ec4a150ea',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034da6ddf6fd4713c689606',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034de9f45483f6ef49a0e0e',
+      userImagePath: 'uploads\\1614077599834IMG_20190928_225159.jpg'
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6036024d2f9ce02ea47ddbb3',
+      userImagePath: 'uploads\\1614152269512IMG_20190928_225159.jpg'
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6036027b540f584774ad8d0e',
+      userImagePath: 'uploads\\1614152315942IMG_20190928_225159.jpg'
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '60360322ab569f20b0afd7d2',
+      userImagePath: 'uploads\\1614152482834IMG_20190928_225159.jpg'
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '60360335379162372cd8dc8b',
+      userImagePath: 'uploads\\1614152501588IMG_20190928_225159.jpg'
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '60360359b367ef48f43b0036',
+      userImagePath: '1614152537245IMG_20190928_225159.jpg'
+    }
+  ]
+}
+[2021-02-24T13:13:05.303] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:13:22.518] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:13:37.928] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:13:52.462] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:14:06.120] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:14:24.828] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:14:31.970] [DEBUG] default - [
+  UserResponse {
+    userName: 'singh',
+    id: '602226562c4bcd621cef3429',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'string',
+    id: '602d05547166852ac0a751cb',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'rajuBhai',
+    id: '602d08425593bf14ecc2db86',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwertyy',
+    id: '6034c3d3841f41336c7d15de',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwertyy12',
+    id: '6034cc9f6535f26480c3020f',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwertyy123',
+    id: '6034cfb8440f01732463f869',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwertyy123',
+    id: '6034d1125052b178ac43dfb3',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d446878e353dec2bb4f4',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d6da9ec02472001cd1b7',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d73f65e0c1646004b63f',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d7b78ad3985348ebb936',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d874e39a5c5cd05ab277',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d8ecf9de197e70de925a',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d990ed5cff55641300b4',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034da0a0ce4623ec4a150ea',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '60360359b367ef48f43b0036',
+    userImagePath: '1614152537245IMG_20190928_225159.jpg'
+  }
+]
+[2021-02-24T13:14:31.986] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse {
+      userName: 'singh',
+      id: '602226562c4bcd621cef3429',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'string',
+      id: '602d05547166852ac0a751cb',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwertyy',
+      id: '6034c3d3841f41336c7d15de',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwertyy12',
+      id: '6034cc9f6535f26480c3020f',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwertyy123',
+      id: '6034cfb8440f01732463f869',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwertyy123',
+      id: '6034d1125052b178ac43dfb3',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d446878e353dec2bb4f4',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d6da9ec02472001cd1b7',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d73f65e0c1646004b63f',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d7b78ad3985348ebb936',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d874e39a5c5cd05ab277',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d8ecf9de197e70de925a',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d990ed5cff55641300b4',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034da0a0ce4623ec4a150ea',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '60360359b367ef48f43b0036',
+      userImagePath: '1614152537245IMG_20190928_225159.jpg'
+    }
+  ]
+}
+[2021-02-24T13:14:46.637] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:15:00.226] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:15:15.309] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:15:27.492] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:15:44.123] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:15:54.339] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:15:57.291] [DEBUG] default - [
+  UserResponse {
+    userName: 'singh',
+    id: '602226562c4bcd621cef3429',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'string',
+    id: '602d05547166852ac0a751cb',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'rajuBhai',
+    id: '602d08425593bf14ecc2db86',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d73f65e0c1646004b63f',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d7b78ad3985348ebb936',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d874e39a5c5cd05ab277',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d8ecf9de197e70de925a',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034d990ed5cff55641300b4',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '6034da0a0ce4623ec4a150ea',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '60360359b367ef48f43b0036',
+    userImagePath: '1614152537245IMG_20190928_225159.jpg'
+  }
+]
+[2021-02-24T13:15:57.304] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse {
+      userName: 'singh',
+      id: '602226562c4bcd621cef3429',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'string',
+      id: '602d05547166852ac0a751cb',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d73f65e0c1646004b63f',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d7b78ad3985348ebb936',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d874e39a5c5cd05ab277',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d8ecf9de197e70de925a',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034d990ed5cff55641300b4',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '6034da0a0ce4623ec4a150ea',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '60360359b367ef48f43b0036',
+      userImagePath: '1614152537245IMG_20190928_225159.jpg'
+    }
+  ]
+}
+[2021-02-24T13:16:16.273] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:16:27.370] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:16:39.902] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:16:49.083] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:17:01.497] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:17:12.150] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:17:16.073] [DEBUG] default - [
+  UserResponse {
+    userName: 'singh',
+    id: '602226562c4bcd621cef3429',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'string',
+    id: '602d05547166852ac0a751cb',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'rajuBhai',
+    id: '602d08425593bf14ecc2db86',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'stgdfgdge',
+    id: '602e075057183e1b0090a0b0',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '60360359b367ef48f43b0036',
+    userImagePath: '1614152537245IMG_20190928_225159.jpg'
+  }
+]
+[2021-02-24T13:17:16.077] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse {
+      userName: 'singh',
+      id: '602226562c4bcd621cef3429',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'string',
+      id: '602d05547166852ac0a751cb',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'rajuBhai',
+      id: '602d08425593bf14ecc2db86',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'stgdfgdge',
+      id: '602e075057183e1b0090a0b0',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '60360359b367ef48f43b0036',
+      userImagePath: '1614152537245IMG_20190928_225159.jpg'
+    }
+  ]
+}
+[2021-02-24T13:17:32.203] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:17:46.904] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:17:59.829] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-24T13:18:04.155] [DEBUG] default - [
+  UserResponse {
+    userName: 'singh',
+    id: '602226562c4bcd621cef3429',
+    userImagePath: undefined
+  },
+  UserResponse {
+    userName: 'qwergh',
+    id: '60360359b367ef48f43b0036',
+    userImagePath: '1614152537245IMG_20190928_225159.jpg'
+  }
+]
+[2021-02-24T13:18:04.159] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse {
+      userName: 'singh',
+      id: '602226562c4bcd621cef3429',
+      userImagePath: undefined
+    },
+    UserResponse {
+      userName: 'qwergh',
+      id: '60360359b367ef48f43b0036',
+      userImagePath: '1614152537245IMG_20190928_225159.jpg'
+    }
+  ]
+}
+[2021-02-24T13:18:32.346] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:20:49.033] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:22:11.950] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:22:57.521] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:23:33.867] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:23:59.613] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:27:53.672] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:29:52.625] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:30:39.593] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:32:04.009] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:32:11.407] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:33:04.487] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:34:05.427] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:34:10.230] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:34:31.231] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:34:46.255] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:35:29.856] [DEBUG] default - UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+[2021-02-24T13:35:29.858] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+}
+[2021-02-24T13:36:47.213] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:38:07.913] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:38:45.964] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:38:49.584] [ERROR] default - TypeError: Cannot read property 'err' of undefined
+    at F:\node_js\node_4.2.21\controllers\userController.js:38:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:5:22
+[2021-02-24T13:38:49.586] [ERROR] default - TypeError: Cannot read property 'err' of undefined
+    at F:\node_js\node_4.2.21\controllers\userController.js:38:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:5:22
+[2021-02-24T13:39:36.472] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:40:47.600] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:41:07.609] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:41:20.518] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:41:29.703] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:41:36.567] [ERROR] default - ReferenceError: avatarPath is not defined
+    at F:\node_js\node_4.2.21\controllers\userController.js:39:52
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:5:22
+[2021-02-24T13:41:36.569] [ERROR] default - ReferenceError: avatarPath is not defined
+    at F:\node_js\node_4.2.21\controllers\userController.js:39:52
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:5:22
+[2021-02-24T13:42:44.778] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:42:47.025] [DEBUG] default - undefined
+[2021-02-24T13:42:47.026] [ERROR] default - TypeError: Cannot read property 'statusCode' of undefined
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:7:25
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-02-24T13:42:47.027] [ERROR] default - TypeError: Cannot read property 'statusCode' of undefined
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:7:25
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-02-24T13:43:01.013] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:43:06.855] [DEBUG] default - undefined
+[2021-02-24T13:43:06.856] [ERROR] default - TypeError: Cannot read property 'statusCode' of undefined
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:7:25
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-02-24T13:43:06.858] [ERROR] default - TypeError: Cannot read property 'statusCode' of undefined
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:7:25
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-02-24T13:44:19.384] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:44:37.929] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:47:01.067] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:48:32.705] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:48:37.560] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:49:26.197] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:50:21.132] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:50:52.858] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:51:16.879] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:53:46.886] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:54:23.047] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:54:26.698] [DEBUG] default - undefined
+[2021-02-24T13:54:26.699] [ERROR] default - TypeError: Cannot read property 'statusCode' of undefined
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:12:25
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-02-24T13:54:26.701] [ERROR] default - TypeError: Cannot read property 'statusCode' of undefined
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:12:25
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-02-24T13:56:29.363] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:56:53.415] [DEBUG] default - undefined
+[2021-02-24T13:56:53.416] [ERROR] default - TypeError: Cannot read property 'statusCode' of undefined
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:12:25
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-02-24T13:56:53.419] [ERROR] default - TypeError: Cannot read property 'statusCode' of undefined
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:12:25
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-02-24T13:58:20.530] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T13:59:15.985] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:14:34.245] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:15:38.133] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:16:16.799] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:16:44.898] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:16:53.475] [DEBUG] default - undefined
+[2021-02-24T15:16:53.476] [ERROR] default - TypeError: Cannot read property 'payload' of undefined
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:13:22
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-02-24T15:16:53.478] [ERROR] default - TypeError: Cannot read property 'payload' of undefined
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:13:22
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2021-02-24T15:17:53.074] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:17:56.385] [DEBUG] default - undefined
+[2021-02-24T15:19:40.876] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:19:51.219] [DEBUG] default - HttpFileOk { statusCode: 200, payload: undefined }
+[2021-02-24T15:20:47.141] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:20:50.557] [DEBUG] default - undefined
+[2021-02-24T15:22:18.593] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:22:21.912] [DEBUG] default - undefined
+[2021-02-24T15:22:38.958] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:22:42.682] [DEBUG] default - hjgfv
+[2021-02-24T15:23:36.396] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:23:38.750] [ERROR] default - ReferenceError: x is not defined
+    at F:\node_js\node_4.2.21\controllers\userController.js:59:5
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:22
+[2021-02-24T15:23:38.752] [ERROR] default - ReferenceError: x is not defined
+    at F:\node_js\node_4.2.21\controllers\userController.js:59:5
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:22
+[2021-02-24T15:24:32.001] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:24:35.134] [DEBUG] default - undefined
+[2021-02-24T15:26:33.457] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:26:36.225] [DEBUG] default - undefined
+[2021-02-24T15:26:53.986] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:26:56.428] [DEBUG] default - undefined
+[2021-02-24T15:27:29.968] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:27:32.649] [DEBUG] default - undefined
+[2021-02-24T15:28:24.291] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:28:27.452] [DEBUG] default - undefined
+[2021-02-24T15:28:47.778] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:29:28.351] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:29:35.229] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:29:38.250] [DEBUG] default - undefined
+[2021-02-24T15:33:43.792] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:33:46.358] [DEBUG] default - undefined
+[2021-02-24T15:36:10.990] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:42:38.227] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:46:24.099] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:46:39.180] [DEBUG] default - undefined
+[2021-02-24T15:47:12.460] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:47:17.620] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:47:20.226] [DEBUG] default - undefined
+[2021-02-24T15:47:33.125] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:47:33.807] [DEBUG] default - undefined
+[2021-02-24T15:49:58.920] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:51:53.899] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:52:02.210] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:52:53.320] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:53:00.624] [DEBUG] default - <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 48 00 48 00 00 ff e1 39 12 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 0d 00 0b 00 02 00 00 00 26 00 00 ... 218258 more bytes>
+[2021-02-24T15:53:52.311] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:53:56.022] [DEBUG] default - undefined
+[2021-02-24T15:54:11.751] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:54:27.293] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:54:29.684] [ERROR] default - TypeError: myPromise.resolve is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:63:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:22
+[2021-02-24T15:54:29.686] [ERROR] default - TypeError: myPromise.resolve is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:63:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:22
+[2021-02-24T15:54:59.873] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:55:03.304] [DEBUG] default - undefined
+[2021-02-24T15:55:18.155] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:55:20.407] [DEBUG] default - undefined
+[2021-02-24T15:55:50.141] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:55:52.266] [DEBUG] default - <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 48 00 48 00 00 ff e1 39 12 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 0d 00 0b 00 02 00 00 00 26 00 00 ... 218258 more bytes>
+[2021-02-24T15:56:19.076] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:56:33.650] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:56:36.428] [DEBUG] default - HttpFileOk {
+  statusCode: 200,
+  payload: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 48 00 48 00 00 ff e1 39 12 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 0d 00 0b 00 02 00 00 00 26 00 00 ... 218258 more bytes>
+}
+[2021-02-24T15:56:36.430] [ERROR] default - TypeError: Right-hand side of 'instanceof' is not an object
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:9:18
+[2021-02-24T15:56:36.432] [ERROR] default - TypeError: Right-hand side of 'instanceof' is not an object
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:9:18
+[2021-02-24T15:57:20.675] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:57:23.044] [DEBUG] default - HttpFileOk {
+  statusCode: 200,
+  payload: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 48 00 48 00 00 ff e1 39 12 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 0d 00 0b 00 02 00 00 00 26 00 00 ... 218258 more bytes>
+}
+[2021-02-24T15:58:42.719] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:58:44.491] [DEBUG] default - HttpFileOk {
+  statusCode: 200,
+  payload: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 48 00 48 00 00 ff e1 39 12 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 0d 00 0b 00 02 00 00 00 26 00 00 ... 218258 more bytes>
+}
+[2021-02-24T15:58:44.497] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.writeHead (_http_server.js:289:21)
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:13:9 {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2021-02-24T15:58:44.501] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.writeHead (_http_server.js:289:21)
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:13:9 {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2021-02-24T15:59:07.381] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:59:10.250] [DEBUG] default - HttpFileOk {
+  statusCode: 200,
+  payload: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 48 00 48 00 00 ff e1 39 12 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 0d 00 0b 00 02 00 00 00 26 00 00 ... 218258 more bytes>
+}
+[2021-02-24T15:59:37.595] [INFO] default - Example app listening at http://:::8081
+[2021-02-24T15:59:39.981] [DEBUG] default - HttpFileOk {
+  statusCode: 200,
+  payload: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 48 00 48 00 00 ff e1 39 12 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 0d 00 0b 00 02 00 00 00 26 00 00 ... 218258 more bytes>
+}
+[2021-02-24T15:59:55.796] [DEBUG] default - HttpFileOk {
+  statusCode: 200,
+  payload: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 48 00 48 00 00 ff e1 39 12 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 0d 00 0b 00 02 00 00 00 26 00 00 ... 218258 more bytes>
+}
+[2021-02-24T16:00:17.486] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:27:13.966] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:30:01.824] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:32:06.201] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:33:06.500] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:33:58.475] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:34:06.688] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:35:59.830] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:36:28.690] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:36:28.708] [INFO] default - connected
+[2021-02-25T12:37:13.250] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:37:13.269] [INFO] default - connected
+[2021-02-25T12:37:40.807] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:37:40.827] [INFO] default - connected
+[2021-02-25T12:38:31.786] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:38:31.804] [INFO] default - connected
+[2021-02-25T12:38:46.606] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-25T12:38:46.608] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+  ]
+}
+[2021-02-25T12:39:06.764] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-25T12:39:06.766] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+  ]
+}
+[2021-02-25T12:39:23.309] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:39:23.329] [INFO] default - connected
+[2021-02-25T12:39:27.461] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-25T12:39:27.463] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+  ]
+}
+[2021-02-25T12:39:37.401] [DEBUG] default - UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+[2021-02-25T12:39:37.402] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+}
+[2021-02-25T12:40:39.991] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:40:40.010] [INFO] default - connected
+[2021-02-25T12:40:49.875] [ERROR] default - HttpNotFound { statusCode: 404, message: 'The user is not present' }
+[2021-02-25T12:40:56.791] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-25T12:40:56.793] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+  ]
+}
+[2021-02-25T12:42:28.879] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:42:28.898] [INFO] default - connected
+[2021-02-25T12:43:53.098] [INFO] default - Example app listening at http://:::8081
+[2021-02-25T12:43:53.117] [INFO] default - connected
+[2021-02-25T12:44:02.839] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { params: { userId: [Array] } }
+}
+[2021-02-25T12:44:40.731] [ERROR] default - HttpNotFound {
+  statusCode: 404,
+  message: 'Ops! The route you have requested is not found.'
+}
+[2021-02-25T12:44:48.269] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-25T12:44:48.270] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+  ]
+}
+[2021-02-25T12:44:53.371] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { params: { userId: [Array] } }
+}
+[2021-02-25T12:44:59.363] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-25T12:44:59.364] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+  ]
+}
+[2021-02-25T12:45:09.927] [ERROR] default - HttpBadRequest {
+  statusCode: 400,
+  message: 'Incorrect input',
+  error: { params: { userId: [Array] } }
+}
+[2021-02-25T12:45:13.798] [ERROR] default - HttpNotFound { statusCode: 404, message: 'The user is not present' }
+[2021-02-25T12:45:13.798] [ERROR] default - HttpNotFound { statusCode: 404, message: 'The user is not present' }

@@ -1,4 +1,4 @@
-const UserResponse = require("./UserResponse");
+const UserResponse = require('./UserResponse');
 
 module.exports = {
   UserResponse,

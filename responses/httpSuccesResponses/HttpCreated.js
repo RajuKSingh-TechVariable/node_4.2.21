@@ -1,5 +1,5 @@
-const HttpSuccesBase = require("./HttpSuccesBase");
-const { CREATED } = require("../../constants/httpStatusCodes");
+const HttpSuccesBase = require('./HttpSuccesBase');
+const { CREATED } = require('../../constants/httpStatusCodes');
 /**
  * HttpSuccesCreated
  * See {@link HttpSuccesBase}

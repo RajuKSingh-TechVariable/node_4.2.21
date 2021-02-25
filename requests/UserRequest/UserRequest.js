@@ -1,9 +1,9 @@
-const { emailValid } = require("../../utils");
+const { emailValid } = require('../../utils');
 const {
   InvalidBodyException,
   InvalidParamsException,
-} = require("../../responses/validationResponses");
-const { userErrorMsgs } = require("../../resources/errorMessages");
+} = require('../../responses/validationResponses');
+const { userErrorMsgs } = require('../../resources/errorMessages');
 
 class UserRequest {
   constructor({ body, params }) {
@@ -33,20 +33,18 @@ class UserRequest {
     }
     if (!this.body.password) {
       passwordErrors.push(userErrorMsgs.passwordReq);
-    } else {
-      if (this.body.password.length <= 5) {
-        passwordErrors.push(userErrorMsgs.lengthGt5);
-      }
+    } else if (this.body.password.length <= 5) {
+      passwordErrors.push(userErrorMsgs.lengthGt5);
     }
 
-    if (userNameErrors.length != 0) {
-      errObj["userName"] = userNameErrors;
+    if (userNameErrors.length !== 0) {
+      errObj.userName = userNameErrors;
     }
-    if (passwordErrors.length != 0) {
-      errObj["password"] = passwordErrors;
+    if (passwordErrors.length !== 0) {
+      errObj.password = passwordErrors;
     }
 
-    if (Object.keys(errObj).length != 0) {
+    if (Object.keys(errObj).length !== 0) {
       throw new InvalidBodyException(errObj);
     }
   }
@@ -54,14 +52,14 @@ class UserRequest {
   validateParams() {
     const errObj = {};
     const paramErrors = [];
-    var hex = /[0-9A-Fa-f]{24}/g;
+    const hex = /[0-9A-Fa-f]{24}/g;
     if (!hex.test(this.params.userId)) {
       paramErrors.push(userErrorMsgs.paramInvalid);
     }
-    if (paramErrors.length != 0) {
-      errObj["userId"] = paramErrors;
+    if (paramErrors.length !== 0) {
+      errObj.userId = paramErrors;
     }
-    if (Object.keys(errObj).length != 0) {
+    if (Object.keys(errObj).length !== 0) {
       throw new InvalidParamsException(errObj);
     }
   }

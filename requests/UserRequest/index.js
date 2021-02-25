@@ -1,4 +1,4 @@
-const UserRequest = require("./UserRequest");
+const UserRequest = require('./UserRequest');
 
 module.exports = {
   UserRequest,
