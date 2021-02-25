@@ -1,6 +1,6 @@
+const httpResponse = require('http-response-rks');
 const { BODY, PARAMS } = require('../constants/validateOn');
 const { ValidationError } = require('../responses/validationResponses');
-const { HttpBadRequest } = require('../responses/httpErrorsResponses');
 const { validationErrorMsgs } = require('../resources/errorMessages');
 
 module.exports = (ValidatorClass, validateOn) => async (req, _res, next) => {
@@ -31,7 +31,12 @@ module.exports = (ValidatorClass, validateOn) => async (req, _res, next) => {
     });
 
     if (Object.keys(errObj).length !== 0) {
-      next(new HttpBadRequest(validationErrorMsgs.badRequest, errObj));
+      next(
+        new httpResponse.httpError.HttpBadRequest(
+          validationErrorMsgs.badRequest,
+          errObj,
+        ),
+      );
     }
     req.model = validator;
     next();

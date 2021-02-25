@@ -1,16 +1,10 @@
 const fs = require('fs');
 const path = require('path');
-const { HttpNotFound } = require('../responses/httpErrorsResponses');
+const httpResponse = require('http-response-rks');
 const { asyncResponseHandler } = require('../middlewares');
 const { UserResponse } = require('../responses');
 const { userErrorMsgs } = require('../resources/errorMessages');
 const { userService } = require('../services');
-const {
-  HttpOk,
-  HttpCreated,
-  HttpNoContent,
-  HttpFileOk,
-} = require('../responses/httpSuccesResponses');
 const { defaultLogger } = require('../appLogger');
 
 module.exports = {
@@ -18,25 +12,25 @@ module.exports = {
     const users = await userService.getUsersAsync();
     const usersResponse = users.map((user) => new UserResponse(user));
     defaultLogger.debug(usersResponse);
-    return new HttpOk(usersResponse);
+    return new httpResponse.httpSucces.HttpOk(usersResponse);
   }),
 
   getUser: asyncResponseHandler(async (req) => {
     const user = await userService.getUserAsync(req.model.params.userId);
     //   defaultLogger.debug(user);
     if (!user) {
-      throw new HttpNotFound(userErrorMsgs.userNotFound);
+      throw new httpResponse.httpError.HttpNotFound(userErrorMsgs.userNotFound);
     }
     const userResponse = new UserResponse(user);
     defaultLogger.debug(userResponse);
-    return new HttpOk(userResponse);
+    return new httpResponse.httpSucces.HttpOk(userResponse);
   }),
 
   getUserAvatar: asyncResponseHandler(async (req, res) => {
     const user = await userService.getUserAsync(req.model.params.userId);
     //   defaultLogger.debug(user);
     if (!user) {
-      throw new HttpNotFound(userErrorMsgs.userNotFound);
+      throw new httpResponse.httpError.HttpNotFound(userErrorMsgs.userNotFound);
     }
     const img = path.join(__dirname, `../uploads/${user.userImagePath}`);
     fs.access(img, fs.constants.F_OK, (err) => {
@@ -54,7 +48,7 @@ module.exports = {
         }
       });
     });
-    return new HttpFileOk(myPromise);
+    return new httpResponse.httpSucces.HttpFileOk(myPromise);
   }),
 
   createUser: asyncResponseHandler(async (req) => {
@@ -66,30 +60,30 @@ module.exports = {
     //  defaultLogger.debug(createdUser);
     const userResponse = new UserResponse(createdUser);
     defaultLogger.debug(userResponse);
-    return new HttpCreated(userResponse);
+    return new httpResponse.httpSucces.HttpCreated(userResponse);
   }),
 
   updateUser: asyncResponseHandler(async (req) => {
     const user = await userService.getUserAsync(req.model.params.userId);
     //  defaultLogger.debug(user);
     if (!user) {
-      throw new HttpNotFound(userErrorMsgs.userNotFound);
+      throw new httpResponse.httpError.HttpNotFound(userErrorMsgs.userNotFound);
     }
     const updatedUser = await userService.updateUserAsync(
       user.id,
       req.model.body,
     );
     defaultLogger.debug(updatedUser);
-    return new HttpOk(new UserResponse(updatedUser));
+    return new httpResponse.httpSucces.HttpOk(new UserResponse(updatedUser));
   }),
 
   deleteUser: asyncResponseHandler(async (req) => {
     const user = await userService.getUserAsync(req.params.userId);
     //  defaultLogger.debug(user);
     if (!user) {
-      throw new HttpNotFound(userErrorMsgs.userNotFound);
+      throw new httpResponse.httpError.HttpNotFound(userErrorMsgs.userNotFound);
     }
     await userService.deleteUserAsync(user.id);
-    return new HttpNoContent();
+    return new httpResponse.httpSucces.HttpNoContent();
   }),
 };

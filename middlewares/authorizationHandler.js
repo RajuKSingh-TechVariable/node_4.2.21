@@ -1,4 +1,4 @@
-const { HttpUnauthorised } = require('../responses/httpErrorsResponses');
+const httpResponse = require('http-response-rks');
 const { userService } = require('../services');
 const { authorisationErrorMsgs } = require('../resources/errorMessages');
 
@@ -19,7 +19,11 @@ module.exports = async (req, _res, next) => {
   );
   req.user = await userService.findAsync(userName, password);
   if (!req.user) {
-    next(new HttpUnauthorised(authorisationErrorMsgs.permissionDenied));
+    next(
+      new httpResponse.httpError.HttpUnauthorised(
+        authorisationErrorMsgs.permissionDenied,
+      ),
+    );
   }
   return next();
 };
