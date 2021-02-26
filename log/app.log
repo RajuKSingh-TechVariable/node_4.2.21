@@ -2680,3 +2680,261 @@
   statusCode: 200,
   payload: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 48 00 48 00 00 ff e1 39 12 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 0d 00 0b 00 02 00 00 00 26 00 00 ... 218258 more bytes>
 }
+[2021-02-26T12:10:12.446] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T12:10:12.466] [INFO] default - connected
+[2021-02-26T12:10:20.753] [INFO] default - F:\node_js\node_4.2.21\uploads\1614152537245IMG_20190928_225159.jpg exists
+[2021-02-26T12:10:20.755] [DEBUG] default - HttpFileOk {
+  statusCode: 200,
+  payload: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 48 00 48 00 00 ff e1 39 12 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 0d 00 0b 00 02 00 00 00 26 00 00 ... 218258 more bytes>
+}
+[2021-02-26T12:10:59.391] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-26T12:10:59.392] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+  ]
+}
+[2021-02-26T17:36:54.031] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:36:54.089] [INFO] default - connected
+[2021-02-26T17:36:59.095] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-26T17:36:59.098] [ERROR] default - TypeError: httpResponse.HttpOk is not a constructor
+    at F:\node_js\node_4.2.21\controllers\userController.js:15:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:22
+[2021-02-26T17:36:59.112] [ERROR] default - TypeError: httpResponse.HttpOk is not a constructor
+    at F:\node_js\node_4.2.21\controllers\userController.js:15:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:22
+[2021-02-26T17:37:43.177] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:37:43.200] [INFO] default - connected
+[2021-02-26T17:38:21.367] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:38:21.398] [INFO] default - connected
+[2021-02-26T17:38:44.656] [ERROR] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:58:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:39:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:38:44.679] [ERROR] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:58:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:39:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:39:53.228] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:39:53.248] [INFO] default - connected
+[2021-02-26T17:42:07.307] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:42:07.332] [INFO] default - connected
+[2021-02-26T17:42:13.621] [ERROR] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:64:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:39:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:42:13.635] [ERROR] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:64:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:39:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:42:20.197] [ERROR] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:64:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:39:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:42:20.209] [ERROR] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:64:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:39:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:42:34.716] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:42:34.736] [INFO] default - connected
+[2021-02-26T17:42:40.463] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-26T17:42:40.465] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+  ]
+}
+[2021-02-26T17:42:48.810] [ERROR] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:64:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:39:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:42:48.824] [ERROR] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:64:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:39:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:43:10.160] [DEBUG] default - UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' }
+[2021-02-26T17:43:10.161] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' }
+}
+[2021-02-26T17:45:12.476] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:45:12.495] [INFO] default - connected
+[2021-02-26T17:45:32.522] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:45:32.544] [INFO] default - connected
+[2021-02-26T17:46:06.088] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:46:06.106] [INFO] default - connected
+[2021-02-26T17:46:23.722] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:46:23.743] [INFO] default - connected
+[2021-02-26T17:46:44.438] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:46:44.457] [INFO] default - connected
+[2021-02-26T17:47:40.220] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:47:40.243] [INFO] default - connected
+[2021-02-26T17:47:43.029] [DEBUG] default - UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' }
+[2021-02-26T17:47:43.030] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' }
+}
+[2021-02-26T17:47:56.012] [ERROR] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:64:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:37:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:47:56.024] [ERROR] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:64:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:37:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:47:56.027] [INFO] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:64:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:37:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:49:31.834] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:49:31.855] [INFO] default - connected
+[2021-02-26T17:49:40.464] [ERROR] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:65:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:37:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:49:40.476] [ERROR] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:65:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:37:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:49:40.478] [INFO] default - TypeError: imagePath.slice is not a function
+    at F:\node_js\node_4.2.21\controllers\userController.js:65:17
+    at F:\node_js\node_4.2.21\middlewares\asyncResponseHandler.js:6:28
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at F:\node_js\node_4.2.21\middlewares\validator.js:37:5
+    at Layer.handle [as handle_request] (F:\node_js\node_4.2.21\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\node_js\node_4.2.21\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (F:\node_js\node_4.2.21\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (internal/timers.js:463:21)
+[2021-02-26T17:50:44.956] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:50:44.988] [INFO] default - connected
+[2021-02-26T17:50:49.778] [DEBUG] default - UserResponse {
+  userName: 'qwerghhbvbjn',
+  id: '6038e7a133594f49a8cba9dc'
+}
+[2021-02-26T17:50:49.780] [DEBUG] default - HttpSuccesCreated {
+  statusCode: 201,
+  payload: UserResponse {
+    userName: 'qwerghhbvbjn',
+    id: '6038e7a133594f49a8cba9dc'
+  }
+}
+[2021-02-26T17:51:21.058] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T17:51:21.079] [INFO] default - connected
+[2021-02-26T17:51:31.551] [ERROR] default - HttpUnauthorised {
+  statusCode: 401,
+  message: "Ops! you don't have the require permissions."
+}
+[2021-02-26T17:51:47.905] [DEBUG] default - HttpNoContent { statusCode: 204 }
+[2021-02-26T17:51:54.230] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-26T17:51:54.232] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+  ]
+}
+[2021-02-26T17:52:06.132] [DEBUG] default - UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+[2021-02-26T17:52:06.133] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+}
+[2021-02-26T17:52:09.473] [INFO] default - F:\node_js\node_4.2.21\uploads\1614152537245IMG_20190928_225159.jpg exists
+[2021-02-26T17:52:09.526] [DEBUG] default - HttpFileOk {
+  statusCode: 200,
+  payload: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 48 00 48 00 00 ff e1 39 12 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 0d 00 0b 00 02 00 00 00 26 00 00 ... 218258 more bytes>
+}

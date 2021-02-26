@@ -29,7 +29,7 @@
     "express": "^4.17.1",
     "git": "^0.1.5",
     "git-all": "0.0.3",
-    "http-response-rks": "^1.0.0",
+    "http-response-rks": "^1.0.3",
     "log4js": "^6.3.0",
     "mongodb": "^3.6.4",
     "mongoose": "^5.11.15",
