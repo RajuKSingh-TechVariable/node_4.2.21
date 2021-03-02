@@ -2938,3 +2938,75 @@
   statusCode: 200,
   payload: <Buffer ff d8 ff e0 00 10 4a 46 49 46 00 01 01 01 00 48 00 48 00 00 ff e1 39 12 45 78 69 66 00 00 4d 4d 00 2a 00 00 00 08 00 0d 00 0b 00 02 00 00 00 26 00 00 ... 218258 more bytes>
 }
+[2021-02-26T18:11:46.899] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T18:11:46.918] [INFO] default - connected
+[2021-02-26T18:11:49.791] [ERROR] default - HttpNotFound { statusCode: 404, message: 'The user is not present' }
+[2021-02-26T18:11:49.792] [ERROR] default - HttpNotFound { statusCode: 404, message: 'The user is not present' }
+[2021-02-26T18:12:02.044] [DEBUG] default - [
+  UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+  UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+]
+[2021-02-26T18:12:02.046] [DEBUG] default - HttpSuccesOK {
+  statusCode: 200,
+  payload: [
+    UserResponse { userName: 'singh', id: '602226562c4bcd621cef3429' },
+    UserResponse { userName: 'qwergh', id: '60360359b367ef48f43b0036' }
+  ]
+}
+[2021-02-26T18:12:12.689] [INFO] default - F:\node_js\node_4.2.21\uploads\undefined does not exist
+[2021-02-26T18:12:12.690] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\undefined'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\undefined'
+}
+[2021-02-26T18:12:12.698] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\undefined'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\undefined'
+}
+[2021-02-26T18:12:12.703] [INFO] default - Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\undefined'
+[2021-02-26T18:16:21.950] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T18:16:21.969] [INFO] default - connected
+[2021-02-26T18:17:34.097] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T18:17:34.117] [INFO] default - connected
+[2021-02-26T18:19:31.836] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T18:19:31.857] [INFO] default - connected
+[2021-02-26T18:20:12.574] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T18:20:12.595] [INFO] default - connected
+[2021-02-26T18:21:13.527] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T18:21:13.547] [INFO] default - connected
+[2021-02-26T18:21:19.898] [INFO] default - F:\node_js\node_4.2.21\uploads\undefined does not exist
+[2021-02-26T18:21:19.899] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\undefined'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\undefined'
+}
+[2021-02-26T18:21:19.909] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\undefined'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\undefined'
+}
+[2021-02-26T18:21:19.911] [INFO] default - Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\undefined'
+[2021-02-26T18:21:53.261] [INFO] default - Example app listening at http://:::8081
+[2021-02-26T18:21:53.281] [INFO] default - connected
+[2021-02-26T18:21:56.582] [INFO] default - F:\node_js\node_4.2.21\uploads\undefined does not exist
+[2021-02-26T18:21:56.583] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\undefined'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\undefined'
+}
+[2021-02-26T18:21:56.592] [ERROR] default - [Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\undefined'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'F:\\node_js\\node_4.2.21\\uploads\\undefined'
+}
+[2021-02-26T18:21:56.594] [INFO] default - Error: ENOENT: no such file or directory, open 'F:\node_js\node_4.2.21\uploads\undefined'
+[2021-02-26T19:47:20.975] [INFO] default - connected
+[2021-03-01T16:24:40.675] [INFO] default - Example app listening at http://:::8081
+[2021-03-01T16:24:40.838] [INFO] default - connected

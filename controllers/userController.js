@@ -7,6 +7,7 @@ const {
   HttpSuccesCreated,
   HttpNoContent,
 } = require('http-response-rks');
+// const { rejects } = require('assert');
 const { asyncResponseHandler } = require('../middlewares');
 const { UserResponse } = require('../responses');
 const { userErrorMsgs } = require('../resources/errorMessages');
@@ -32,7 +33,7 @@ module.exports = {
     return new HttpSuccesOK(userResponse);
   }),
 
-  getUserAvatar: asyncResponseHandler(async (req, res) => {
+  getUserAvatar: asyncResponseHandler(async (req) => {
     const user = await userService.getUserAsync(req.model.params.userId);
     //   defaultLogger.debug(user);
     if (!user) {
@@ -44,11 +45,12 @@ module.exports = {
       defaultLogger.info(`${img} ${err ? 'does not exist' : 'exists'}`);
     });
 
-    const myPromise = await new Promise((resolve) => {
+    const myPromise = await new Promise((resolve, reject) => {
       fs.readFile(img, (err, content) => {
         if (err) {
-          res.writeHead(404, { 'Content-type': 'text/html' });
-          res.end('<h1>No such image</h1>');
+          // res.writeHead(404, { 'Content-type': 'text/html' });
+          // res.end('<h1>No such image</h1>');
+          reject(err);
         } else {
           resolve(content);
         }
